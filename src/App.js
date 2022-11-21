@@ -1,9 +1,13 @@
-import React from 'react'
+import { useState } from "react";
+import { data } from "./data";
+import FirstName from './FirstName'
 
 function App() {
+  const [firstName, setFirstName] = useState(data);
+
   return (
-    <div>App</div>
+    <FirstName anyWordYouWant={firstName}/>
   )
 }
 
-export default App
+export default App;

@@ -1,5 +1,6 @@
-* {
+body {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
+  background-color: #f6f6f6;
 }
 
 .products {
@@ -13,10 +14,6 @@
     flex-basis: 16%;
   }
   
-  body {
-    background-color: #f6f6f6;
-  }
-    
   .cont {
     display: flex;
     justify-content: center;
@@ -27,7 +24,6 @@
     padding: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    font-family: 'Encode Sans Semi Expanded', sans-serif;
   }
   
   .change {
@@ -35,11 +31,6 @@
     color: white;
     padding: 10px;
     border: none;
-    font-family: 'Encode Sans Semi Expanded', sans-serif;
-  }
-  
-  h3, h4 {
-    font-family: 'Encode Sans Semi Expanded', sans-serif;
   }
   
   button {

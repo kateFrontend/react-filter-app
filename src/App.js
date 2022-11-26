@@ -9,6 +9,9 @@ function App() {
 
   return (
     <div>
+      <div className="cont">
+        <h2 className="back">Free Standart Shipping</h2>
+      </div>
       <Buttons/>
       <Clothes itemsForSale={clothes} />
     </div>

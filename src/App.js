@@ -9,9 +9,9 @@ function App() {
 return (
   <Router>
     <nav>
-      <Link to='/'>Home</Link>
-      <Link to='/about'>About</Link>
-      <Link to='/contact'>Contact</Link>
+      <Link className="link" to='/'>Home</Link>
+      <Link className="link" to='/about'>About</Link>
+      <Link className="link" to='/contact'>Contact</Link>
     </nav>
 
 <Routes>

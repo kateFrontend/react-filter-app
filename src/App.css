@@ -3,6 +3,21 @@ body {
   background-color: #f6f6f6;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #cfd8dc;
+  padding: 15px;
+}
+
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .products {
     display: flex;
     flex-wrap: wrap;

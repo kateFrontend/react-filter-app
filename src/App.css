@@ -37,8 +37,11 @@ nav {
   }
   
   img {
-    border: 5px solid black
+    border: 5px solid black;
+    width: 350px;
+    height: 450px;
   }
+
   .cont {
     display: flex;
     justify-content: center;
@@ -61,4 +64,35 @@ nav {
   
   button {
     margin: 10px;
+  }
+
+  @media screen and (max-width: 500px) {
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #cfd8dc;
+      padding: 15px;
+    }
+
+    .link {
+      font-size: 14px;
+      font-weight: bold;
+      padding: 10px 20px;
+    }
+
+    .back {
+      font-size: 24px;
+  }
+
+  .cont {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .change {
+    padding: 10px 30px;
+    font-size: 10px;
+  }
+
   }

@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   background-color: #f6f6f6;
@@ -11,9 +17,10 @@ nav {
 }
 
 .link {
-  padding: 10px 40px;
+  padding: 10px 50px;
   text-decoration: none;
   color: black;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -29,14 +36,16 @@ nav {
     flex-basis: 16%;
   }
   
+  img {
+    border: 5px solid black
+  }
   .cont {
     display: flex;
     justify-content: center;
   }
   
   .back {
-    background-color: #f4eddd; 
-    padding: 20px;
+    padding: 50px 0;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -44,7 +53,9 @@ nav {
   .change {
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 600;
     border: none;
   }
   

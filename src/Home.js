@@ -16,7 +16,7 @@ function Home() {
   return (
     <div>
       <div className="cont">
-        <h2 className="back">Free Standart Shipping</h2>
+        <h1 className="back">Free Standart Shipping</h1>
       </div>
       <Buttons filteredClothes={chosenClothes} />
       <Clothes itemsForSale={clothes} />

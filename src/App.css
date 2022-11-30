@@ -12,7 +12,7 @@ body {
 nav {
   display: flex;
   justify-content: center;
-  background-color: #cfd8dc;
+  background-color: #86dbff;
   padding: 15px;
 }
 
@@ -37,7 +37,7 @@ nav {
   }
   
   img {
-    border: 5px solid black;
+    border: 5px solid #86dbff;;
     width: 350px;
     height: 450px;
   }
@@ -54,8 +54,8 @@ nav {
   }
   
   .change {
-    background-color: black;
-    color: white;
+    background-color: #86dbff;
+    color: black;
     padding: 10px 50px;
     font-size: 20px;
     font-weight: 600;
@@ -67,13 +67,6 @@ nav {
   }
 
   @media screen and (max-width: 500px) {
-
-    nav {
-      display: flex;
-      justify-content: center;
-      background-color: #cfd8dc;
-      padding: 15px;
-    }
 
     .link {
       font-size: 14px;

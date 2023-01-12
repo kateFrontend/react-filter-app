@@ -66,6 +66,10 @@ nav {
     margin: 10px;
   }
 
+  .about-cont {
+    margin: 50px 400px;
+  }
+
   @media screen and (max-width: 500px) {
 
     .link {

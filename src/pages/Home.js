@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Buttons from "./Buttons";
-import Clothes from "./Clothes";
-import { data } from "./data";
+import Buttons from "../components/Buttons";
+import Clothes from "../components/Clothes";
+import { data } from "../data";
 
 function Home() {
   const [clothes, setClothes] = useState(data);

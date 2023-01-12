@@ -70,12 +70,24 @@ nav {
     margin: 50px 400px;
   }
 
+  .contact {
+    margin: 50px 400px;
+  }
+
   @media screen and (max-width: 500px) {
 
     .link {
       font-size: 14px;
       font-weight: bold;
       padding: 10px 20px;
+    }
+
+    .about-cont {
+      margin: 50px 30px;
+    }
+
+    .contact {
+      margin: 50px 30px;
     }
 
     .back {

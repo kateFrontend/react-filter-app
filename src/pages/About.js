@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="about-cont">
       <div>
-        <h2>About Us</h2>
+        <h2 >About Us</h2>
       </div>
       <div className="text-wrapper">
       <LoremIpsum p={2} />

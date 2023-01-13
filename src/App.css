@@ -74,6 +74,20 @@ nav {
     margin: 50px 400px;
   }
 
+  @media screen and (max-width: 900px) {
+    .cont {
+      width: 400px;
+      flex-direction: column;
+      margin: 2rem auto;
+    }
+
+    .change {
+      padding: 10px 30px;
+      margin: 0.3rem;
+    }
+
+  }
+
   @media screen and (max-width: 500px) {
 
     .link {
@@ -95,13 +109,7 @@ nav {
   }
 
   .cont {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .change {
-    padding: 10px 30px;
-    font-size: 10px;
+    width: 300px;
   }
 
   }

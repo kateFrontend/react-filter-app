@@ -5,7 +5,7 @@
 
 ## 🦉 Main information
 
-Simple app to understand element filtering in React applicztions
+Simple app to understand element filtering in React applications.
 
 ## ⏲️ Run project
 

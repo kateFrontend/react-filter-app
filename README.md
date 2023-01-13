@@ -1,6 +1,6 @@
 # Coffee React app
 
-![cover](.../../src/assets/cover1.jpg)
+![cover](.../../src/assets/cover2.jpg)
 
 
 ## 🦉 Main information

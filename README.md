@@ -1,11 +1,11 @@
-# Coffee React app
+# Filter React app
 
 ![cover](.../../src/assets/cover2.jpg)
 
 
 ## 🦉 Main information
 
-Simple app to understand element filtering in React applications.
+Simple app to understand elements filtering in React applications.
 
 ## ⏲️ Run project
 
